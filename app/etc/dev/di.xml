@@ -10,6 +10,7 @@
     <type name="Magento\Framework\DB\Logger\File">
         <arguments>
             <argument name="logAllQueries" xsi:type="boolean">true</argument>
+            <argument name="logQueryTime" xsi:type="number">0.05</argument>
             <argument name="logCallStack" xsi:type="boolean">true</argument>
         </arguments>
     </type>
